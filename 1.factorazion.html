@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="author" content="Paul Martínez">
+<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript">
+
+factores(7);	
+	function factores(valor) 
+	{
+		var a= 1;			
+			for (var i = 1 ; i <= valor; i++)
+			 {
+ 				a *= i;
+			 }
+		console.log(" " + a)
+	}
+	</script>
+</head>
+<body>
+
+<label>Numero a factorar: </label>
+<input id="num" type="text" onchange="factores(this.value);"></input>
+
+</body>
+</html>
